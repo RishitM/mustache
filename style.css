@@ -1,0 +1,28 @@
+.btn{
+    font-size: large;
+    font-family: 'Pangolin', cursive;
+}
+canvas{
+
+    animation-name: rainbow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+body{
+    background-image:url("images.jpeg");
+}
+#dev{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 30px;
+}
+@keyframes rainbow{
+    from{border:10px red solid;}
+    10%{border:10px orange solid;}
+    20%{border:10px yellow solid;}
+    30%{border:10px green solid;}
+    50%{border:10px blue solid;}
+    60%{border:10px indigo solid;}
+    to{border:10px violet solid;}
+}
