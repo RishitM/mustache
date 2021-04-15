@@ -18,7 +18,7 @@ image(video,0,0,300,300);
 image(mustache,noseX,noseY,250,300);
 }
 function takePic(){
-save("Now you are a clown");
+save("see your filtered face!!");
 };
 function modelLoaded(){
     console.log("Posenet Configured!!!!!");
